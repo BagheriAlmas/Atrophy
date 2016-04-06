@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/item_txtTitle"
+
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/item_txtType"
+        android:layout_gravity="center_horizontal" />
+
+    <Adapter.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_img"
+        android:layout_gravity="right"
+        android:src="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/item_imgLike"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/itm_nolike" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/item_imgRead"
+        android:src="@drawable/itm_noread" />
+</LinearLayout>

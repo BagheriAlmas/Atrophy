@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Atrophy</string>
+    <string name="title_activity_show_food">ShowFood</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_splash">خوراکی های لاغری</string>
+    <string name="title_activity_setting">Setting</string>
+    <string-array name="fonts">
+        <item>yekan</item>
+        <item>yaghout</item>
+        <item> nazanin</item>
+        <item>Homa</item>
+    </string-array>
+    <string name="title_activity_about">About</string>
+</resources>
+
+

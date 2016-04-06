@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.seeapp.atrophy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".atrophy.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".atrophy.ShowFood"
+            android:label="@string/title_activity_show_food"
+
+            ></activity>
+        <activity
+            android:name=".atrophy.Search"
+            android:label="@string/title_activity_search"></activity>
+        <activity
+            android:name=".atrophy.Splash"
+            android:label="@string/title_activity_splash"></activity>
+        <activity
+            android:name=".atrophy.Setting"
+            android:label="@string/title_activity_setting"></activity>
+        <activity
+            android:name=".atrophy.About"
+            android:label="@string/title_activity_about"
+            ></activity>
+    </application>
+
+</manifest>
